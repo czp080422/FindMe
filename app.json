@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mes/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#10abfe",
+    "navigationBarTitleText": "寻找",
+    "navigationBarTextStyle":"lightgray",
+    "backgroundColor": "redcolor",
+    "enablePullDownRefresh": true,
+    "disableScroll": false
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#fffff",
+    "selectedColor": "#10abfe",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "寻找",
+      "iconPath": "res/tabbar_community_normal.png",
+      "selectedIconPath": "res/tabbar_community_selected.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "发现",
+      "iconPath": "res/tabbar_profile_normal.png",
+      "selectedIconPath": "res/tabbar_profile_selected.png"
+    }, {
+      "pagePath": "pages/mes/me",
+      "text": "我的",
+      "iconPath": "res/tabbar_profile_normal.png",
+      "selectedIconPath": "res/tabbar_profile_selected.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

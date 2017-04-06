@@ -1,0 +1,3 @@
+<view class="myView">
+    <text class="myText">{{paulText}}</text>>
+</view>>
